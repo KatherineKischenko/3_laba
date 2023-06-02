@@ -43,7 +43,7 @@ public class Model {
 
     public static void writeToCSV(User user) {
         try {
-            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("/src/main/webapp/users.csv"), "UTF-8"));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\\Users\\Екатерина\\Desktop\\OOP\\3\\src\\main\\webapp\\users.csv"), "UTF-8"));
             StringBuffer oneLine = new StringBuffer();
             oneLine.append(user.getName());
             oneLine.append(CSV_SEPARATOR);
